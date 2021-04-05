@@ -3,8 +3,9 @@
 
 def q1
   names = ["田中", "佐藤", "佐々木", "高橋"]
-
   # 以下に回答を記載
+  names.push("斉藤")
+  p names
 
 end
 
@@ -13,14 +14,16 @@ def q2
   array2 = ["bird", "bat", "tiger"]
 
   # 以下に回答を記載
-
+  array3 = array1 + array2
+  p array3
 end
 
 def q3
   numbers = [1, 5, 8, 10, 2, 3, 2, 3, 3, 1, 4, 5, 9]
 
   # 以下に回答を記載
-
+  count3 = numbers.count(3)
+  puts "この配列の中に3は「#{count3}」個あります"
 end
 
 def q4
